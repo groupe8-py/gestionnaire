@@ -40,7 +40,7 @@ def__init__(self):
             else:
                print("desolé ce compte n'existe pas")
   def suprimer(self):#definition de la fonction supprimer
-     def suprimer(self):
+     def suprimer(self):#definition de la fonction supprimer
       print("veuillez vous identifiez pour supprimer\n")
        ide=input("entrer votre id\n")
        code=input("entrez votre mot de passe\n")
