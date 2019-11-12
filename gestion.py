@@ -4,7 +4,7 @@ def__init__(self):
      self.utilisateure=""
      self.cod1=""
      self.cod2=""
-def ajouter(self):
+  def ajouter(self):
      self.utilisateure=input("INSEREZ VOTRE nom\n")
      self.cod1=input("INSEREZ VOTRE code\n")
      self.cod2=input("CONFIRMEZ VOTRE code\n)
@@ -13,7 +13,7 @@ def ajouter(self):
        self.cod1=input("Entrez votre code\n")
        self.cod1=("confirmez votre code\n")
        print("votre mot de passe est créé avec succès\n")
-def modification(self):  
+  def modification(self):  
      print("veillez vous identifier pour la modifier votre \n")
       idem=input("veuillez entrer votre id\n")
       code=input("veuillez entrer votre code\n")
@@ -36,7 +36,7 @@ def modification(self):
                print("option non disponible")
             else:
                print("desolé ce compte n'existe pas")
-def suprimer(self):#definition de la fonction supprimer
+  def suprimer(self):#definition de la fonction supprimer
       print("veuillez vous identifiez pour supprimer\n")
        ide=input("entrer votre id\n")
        code=input("entrez votre mot de passe\n")
