@@ -4,7 +4,7 @@ class gestionnaire(personneBanque):
      self.utilisateure=""
      self.cod1=""
      self.cod2=""
-  def ajouter(self):
+ def ajouter(self):
      self.utilisateure=input("INSEREZ VOTRE nom\n")
      self.cod1=input("INSEREZ VOTRE code\n")
      self.cod2=input("CONFIRMEZ VOTRE code\n)
