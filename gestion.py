@@ -12,7 +12,7 @@ class Gestionnaire:
           print("les mots de passe sont different veuiller reessayer\n")
           self.password1 = input("veuillez entrer votre mot de passe\n")
           self.password2 = input("veuillez confirmer votre mot de passe\n")
-      print("votre compte  ete creer avec succes\nid : {}\nmot de passe : {}\n".format(self.id, self.password1))
+      print("votre compte a ete creer avec succes\nid : {}\nmot de passe : {}\n".format(self.id, self.password1))
    def suprim(self):  #defini la fonction suprimer
        print("veuillez vous identifier pour supprimer votre compte\n")
        ide = input("entrer votre id\n")
